@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    color: hsl(158, 36%, 37%);
+    display: grid;
+    place-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card {
+    width: 610px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.img {
+    width: 50%;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.content {
+    width: 50%;
+    padding: 30px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content h4 {
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+.content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+}
+.content p {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 20px;
+}
+.ratebox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.newrate {
+    font-family: 'Times New Roman', Times, serif;
+    color: hsl(158, 36%, 37%);
+    font-size: x-large;
+    font-weight: 800;
+}
+.oldrate {
+    text-decoration: line-through;
+    color: hsl(158, 36%, 37%);
+}
+.cartbutton {
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    flex-direction: row;
+    color: hsl(0, 0%, 100%);
+    justify-content: center;
+    padding: 15px;
+    border-radius: 4px;
+    gap: 10px;
+}
+.cartbutton p
+{
+    color: hsl(0, 0%, 100%);
+}
